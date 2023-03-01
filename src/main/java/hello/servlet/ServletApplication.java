@@ -14,7 +14,7 @@ public class ServletApplication {
 		SpringApplication.run(ServletApplication.class, args);
 	}
 
-	//이역할 스프링 부트가 다 해줌
+	//스프링빈 자동등록. 이역할 스프링 부트가 다 해줌
 //	@Bean
 //	InternalResourceViewResolver internalResourceViewResolver(){
 //		return new InternalResourceViewResolver("WEB-INF/views/", "jsp");
